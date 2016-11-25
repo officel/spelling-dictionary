@@ -11,7 +11,7 @@ see: https://www.jetbrains.com/products.html?fromMenu
 
 ## list
 
-* jetbrains
+* JetBrains
 * IntelliJ
 * PhpStorm
 * WebStorm
