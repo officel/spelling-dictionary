@@ -7,94 +7,94 @@ see: https://aws.amazon.com/
 ## Note
 
 * Compute
-* Amazon EC2
-* Amazon EC2 Container Registry
-* Amazon EC2 Container Service
-* AWS Elastic Beanstalk
-* AWS Lambda
-* Auto Scaling
-* Elastic Load Balancing
-* Amazon VPC
-* AWS Server Migration Service
+  * Amazon EC2
+  * Amazon EC2 Container Registry
+  * Amazon EC2 Container Service
+  * AWS Elastic Beanstalk
+  * AWS Lambda
+  * Auto Scaling
+  * Elastic Load Balancing
+  * Amazon VPC
+  * AWS Server Migration Service
 * Storage & Content Delivery
-* Amazon S3
-* Amazon CloudFront
-* Amazon EBS
-* Amazon Elastic File System
-* Amazon Glacier
-* AWS Import/Export Snowball
-* AWS Storage Gateway
+  * Amazon S3
+  * Amazon CloudFront
+  * Amazon EBS
+  * Amazon Elastic File System
+  * Amazon Glacier
+  * AWS Import/Export Snowball
+  * AWS Storage Gateway
 * Database
-* Amazon Aurora
-* Amazon RDS
-* AWS Database Migration Service
-* Amazon DynamoDB
-* Amazon ElastiCache
-* Amazon Redshift
+  * Amazon Aurora
+  * Amazon RDS
+  * AWS Database Migration Service
+  * Amazon DynamoDB
+  * Amazon ElastiCache
+  * Amazon Redshift
 * Networking
-* Amazon VPC
-* AWS Direct Connect
-* Elastic Load Balancing
-* Amazon Route 53
+  * Amazon VPC
+  * AWS Direct Connect
+  * Elastic Load Balancing
+  * Amazon Route 53
 * Developer Tools
-* AWS CodeCommit
-* AWS CodeDeploy
-* AWS CodePipeline
-* AWS Command Line Tool
+  * AWS CodeCommit
+  * AWS CodeDeploy
+  * AWS CodePipeline
+  * AWS Command Line Tool
 * Management Tools
-* Amazon CloudWatch
-* AWS CloudFormation
-* AWS CloudTrail
-* AWS Command Line Tool
-* AWS Config
-* AWS Management Console
-* AWS OpsWorks
-* AWS Service Catalog
-* Trusted Advisor
+  * Amazon CloudWatch
+  * AWS CloudFormation
+  * AWS CloudTrail
+  * AWS Command Line Tool
+  * AWS Config
+  * AWS Management Console
+  * AWS OpsWorks
+  * AWS Service Catalog
+  * Trusted Advisor
 * Security and Identity
-* AWS Identity and Access Management (IAM)
-* AWS Certificate Manager
-* AWS CloudHSM
-* AWS Directory Service
-* Amazon Inspector
-* AWS Key Management Service
-* AWS WAF
+  * AWS Identity and Access Management (IAM)
+  * AWS Certificate Manager
+  * AWS CloudHSM
+  * AWS Directory Service
+  * Amazon Inspector
+  * AWS Key Management Service
+  * AWS WAF
 * Analytics
-* Amazon EMR
-* AWS Data Pipeline
-* Amazon Elasticsearch Service
-* Amazon Kinesis
-* Amazon Machine Learning
-* Amazon Redshift
-* Amazon QuickSight
+  * Amazon EMR
+  * AWS Data Pipeline
+  * Amazon Elasticsearch Service
+  * Amazon Kinesis
+  * Amazon Machine Learning
+  * Amazon Redshift
+  * Amazon QuickSight
 * Internet of Things
-* AWS IoT
+  * AWS IoT
 * Game Development
-* Amazon Lumberyard
+  * Amazon Lumberyard
 * Mobile Services
-* AWS Mobile Hub
-* Amazon API Gateway
-* Amazon Cognito
-* AWS Device Farm
-* Amazon Mobile Analytics
-* AWS Mobile SDK
-* Amazon SNS
+  * AWS Mobile Hub
+  * Amazon API Gateway
+  * Amazon Cognito
+  * AWS Device Farm
+  * Amazon Mobile Analytics
+  * AWS Mobile SDK
+  * Amazon SNS
 * Application Services
-* Amazon API Gateway
-* Amazon AppStream
-* Amazon CloudSearch
-* Amazon Elastic Transcoder
-* Amazon FPS
-* Amazon SES
-* Amazon SNS
-* Amazon SQS
-* Amazon SWF
+  * Amazon API Gateway
+  * Amazon AppStream
+  * Amazon CloudSearch
+  * Amazon Elastic Transcoder
+  * Amazon FPS
+  * Amazon SES
+  * Amazon SNS
+  * Amazon SQS
+  * Amazon SWF
 * Enterprise Applications
-* Amazon WorkSpaces
-* Amazon WorkDocs
-* Amazon WorkMail
+  * Amazon WorkSpaces
+  * Amazon WorkDocs
+  * Amazon WorkMail
 * Software
-* AWS Marketplace
+  * AWS Marketplace
 
 ## list
 
