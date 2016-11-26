@@ -1,5 +1,7 @@
 # Spelling dictionary
 
+[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
+
 Spelling dictionary files (aka dic extension) for JetBrains IntelliJ IDEA or Other.
 
 ## About
