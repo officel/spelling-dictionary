@@ -25,6 +25,7 @@ see: http://plantuml.com/
 
 * iuml
 * puml
+* checkversion
 * includeurl
 * definelong
 * enddefinelong
