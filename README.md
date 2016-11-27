@@ -17,4 +17,5 @@ I think that it can also be used in other applications of JetBrains products.
 * open [File] -> [Settings] or [Other Settings] -> [Default settings]
 * select [Editor] -> [Spelling]
 * choice [Dictionaries]
-* click "+" and select repository directory
+* click "+" and select directory in repository directory
+* all directories can be registered at once
