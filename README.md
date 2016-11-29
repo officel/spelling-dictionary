@@ -19,3 +19,8 @@ I think that it can also be used in other applications of JetBrains products.
 * choice [Dictionaries]
 * click "+" and select directory in repository directory
 * all directories can be registered at once
+
+## Contributing
+
+* see [CONTRIBUTING](https://github.com/officel/spelling-dictionary/blob/master/CONTRIBUTING.md) sorry Japanese...
+
