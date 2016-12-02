@@ -17,5 +17,29 @@ gitglossary ..._no
 * workflows
 * fsck
 * reflog
+* reflogs
 * instaweb
-
+* worktree
+# @consultation: changeset, changesets...
+* changeset
+* changesets
+* committish
+* ishes
+* pathspec
+# @consultation: pick + axe _no
+* pickaxe
+* diffcore
+* pseudorefs
+* gitrevisions
+* subhierarchies
+* refspec
+* superproject
+* symref
+* treeish
+* gittutorial
+* gitcvs
+* giteveryday
+* cvsps
+* gitfile
+# @consultation: pseudoref
+* pseudoref
