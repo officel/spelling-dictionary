@@ -72,6 +72,15 @@ workspaces
 workdocs
 workmail
 marketplace
+stackdriver
+bigtable
+datastore
+interconnect
+bigquery
+dataproc
+datalab
+genomics
+endpoints
 jetbrains
 intellij
 phpstorm
