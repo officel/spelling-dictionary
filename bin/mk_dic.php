@@ -39,7 +39,7 @@ foreach ($src_list as $src_file) {
     preg_match_all('/\n\#\# list(.*?)$/sD', $src_contents, $tmp);
     // (行頭の) *, "space(半角空白)", 空行 を除去
     $search = array('*', ' ', "\n\n"); // @memo right?
-    $replace = array('', '', '');
+    $replace = array('', '', "\n");
     $dist_contents = str_replace($search, $replace, $tmp[1][0]);
     $dist_contents = strtolower($dist_contents);
     // var_dump($dist_contents);
