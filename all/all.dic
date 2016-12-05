@@ -74,6 +74,13 @@ workdocs
 workmail
 marketplace
 
+azure
+storsimple
+#...?
+cortana
+#bingautosuggestapi
+autosuggest
+
 gitglossary
 mergetool
 shortlog
@@ -139,6 +146,28 @@ hub
 kotlin
 mps
 toolbox
+
+foo
+bar
+foobar
+baz
+qux
+quux
+corge
+grault
+garply
+waldo
+fred
+plugh
+xyzzy
+thud
+hoge
+fuga
+piyo
+hogehoge
+fugafuga
+piyopiyo
+hogera
 
 iuml
 puml
