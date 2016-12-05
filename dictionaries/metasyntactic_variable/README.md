@@ -21,7 +21,7 @@ In Japan, hoge ~ hogera are general metasyntactic variables.
 * quux
 * corge
 * grault
-* garply,
+* garply
 * waldo
 * fred
 * plugh
