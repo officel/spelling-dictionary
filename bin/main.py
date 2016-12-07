@@ -6,11 +6,14 @@
 # If you can use pip, please run 'pip install pyyaml'
 # If you are using package manager, you can use 'apt-get install python-yaml' or 'yum install python-yaml' command, too.
 #
-import sys, os, yaml
+import os
+import sys
+import yaml
 
-###
-### Searchs same extension files in root_path dir.
-###
+
+#
+# Searches same extension files in root_path dir.
+#
 def get_file_list(root_path, search_extension):
     file_list = []
     for (root, dirs, files) in os.walk(root_path):
@@ -21,9 +24,10 @@ def get_file_list(root_path, search_extension):
 
     return file_list
 
-###
-### Reads .yaml file and return dictionary.
-###
+
+#
+# Reads .yaml file and return dictionary.
+#
 def load_yaml_file(file_path):
     f = open(file_path, "r")
     yaml_data = yaml.load(f)
@@ -31,9 +35,10 @@ def load_yaml_file(file_path):
 
     return yaml_data
 
-###
-### Creates .dic file from yaml data.
-###
+
+#
+# Creates .dic file from yaml data.
+#
 def create_dictionary_file(yaml_data, dictionary_path):
     f = open(dictionary_path, "w")
 
@@ -42,9 +47,10 @@ def create_dictionary_file(yaml_data, dictionary_path):
 
     f.close()
 
-###
-### Create README.md file from yaml data.
-###
+
+#
+# Create README.md file from yaml data.
+#
 def create_readme_file(yaml_data, readme_path):
 
     word_list = ""
@@ -60,8 +66,8 @@ def create_readme_file(yaml_data, readme_path):
 {description}
 
 ## List
-{wordlist}
-""".format(title=yaml_data["title"], see=yaml_data["see"], description=yaml_data["description"], wordlist=word_list)
+{word_list}
+""".format(title=yaml_data["title"], see=yaml_data["see"], description=yaml_data["description"], word_list=word_list)
 
     f = open(readme_path, "w")
 
@@ -70,15 +76,15 @@ def create_readme_file(yaml_data, readme_path):
     f.close()
 
 
-###
-### Main method.
-###
+#
+# Main method.
+#
 def main():
 
     #
     # Check arg length
     #
-    if 1 < len(sys.argv) :
+    if 1 < len(sys.argv):
         print "You cannot use args now. Please remove it and retry."
         sys.exit(1)
 
@@ -107,31 +113,29 @@ def main():
         create_dictionary_file(yaml_data, os.path.join(dirname, basename + ".dic"))
         create_readme_file(yaml_data, os.path.join(dirname, "README.md"))
 
-
     #
     # Finishes creating separated .dic and readme files. Create all.dic file.
     #
-    print "%d .dic file is created.\nNow craeting all.dic file..." % len(yaml_file_list)
+    print "%d .dic file is created.\nNow creating all.dic file..." % len(yaml_file_list)
 
     dictionary_file_list = get_file_list(dictionaries_path, ".dic")
 
-    allwords = ""
-
+    all_words = ""
 
     #
     # Get all .dic files and read it.
     #
     for dictionary_file_path in dictionary_file_list:
         f = open(dictionary_file_path, "r")
-        allwords += f.read()
-        allwords + "\n\n"
+        all_words += f.read()
+        all_words + "\n\n"
         f.close()
 
     #
     # Create all.dic file.
     #
     f = open(os.path.abspath(os.path.join(root_path, "all", "all.dic")), "w")
-    f.write(allwords)
+    f.write(all_words)
     f.close()
 
     print "Done! find %d .dic files and all words are written in all.dic files." % len(dictionary_file_list)
