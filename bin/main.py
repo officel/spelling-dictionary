@@ -43,7 +43,7 @@ def create_dictionary_file(yaml_data, dictionary_path):
     f = open(dictionary_path, "w")
 
     for word_card in yaml_data["words"]:
-        f.write(word_card["word"] + "\n")
+        f.write(word_card["word"].lower() + "\n")
 
     f.close()
 
