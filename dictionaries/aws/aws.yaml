@@ -5,436 +5,442 @@ description:  |
     AWS evolves at a great speed. So we would like to follow up as needed.
     list words see: https://aws.amazon.com/products/
 
+    Amazon Web Services offers a broad set of global cloud-based products including compute, storage, databases,
+    analytics, networking, mobile, developer tools, management tools, IoT, security and enterprise applications.
+    These services help organizations move faster, lower IT costs, and scale.
+    AWS is trusted by the largest enterprises and the hottest start-ups to power a wide variety of workloads including:
+    web and mobile applications, game development, data processing and warehousing, storage, archive, and many others.
+
 see: https://aws.amazon.com/
 words:
 
   - word: EC2
-    desc: Amazon EC2
+    original: Amazon EC2
     description: Virtual Servers in the Cloud
     see: https://aws.amazon.com/ec2/
 
   - word: ECR
-    desc: Amazon EC2 Container Registry
+    original: Amazon EC2 Container Registry
     description: Store and Retrieve Docker Images
     see: https://aws.amazon.com/ecr/
 
   - word: ECS
-    desc: Amazon EC2 Container Service
+    original: Amazon EC2 Container Service
     description: Run and Manage Docker Containers
     see: https://aws.amazon.com/ecs/
 
   - word: Lightsail
-    desc: Amazon Lightsail
+    original: Amazon Lightsail
     description: Launch and Manage Virtual Private Servers
     see: http://amazonlightsail.com
 
   - word: VPC
-    desc: Amazon VPC
+    original: Amazon VPC
     description: Isolated Cloud Resources
     see: https://aws.amazon.com/vpc/
 
   - word: Batch
-    desc: AWS Batch
+    original: AWS Batch
     description: Run Batch Jobs at Any Scale
     see: https://aws.amazon.com/batch/
 
   - word: Beanstalk
-    desc: AWS Elastic Beanstalk
+    original: AWS Elastic Beanstalk
     description: Run and Manage Web Apps
     see: https://aws.amazon.com/elasticbeanstalk/
 
   - word: Lambda
-    desc: AWS Lambda
+    original: AWS Lambda
     description: Run Your Code in Response to Events
     see: https://aws.amazon.com/lambda/
 
   - word: AutoScaling
-    desc: Auto Scaling
+    original: Auto Scaling
     description: Automatic Elasticity
     see: https://aws.amazon.com/autoscaling/
 
   - word: S3
-    desc: Amazon S3
+    original: Amazon S3
     description: Scalable Storage in the Cloud
     see: https://aws.amazon.com/s3/
 
   - word: EBS
-    desc: Amazon EBS
+    original: Amazon EBS
     description: Block Storage for EC2
     see: https://aws.amazon.com/ebs/
 
   - word: EFS
-    desc: Amazon Elastic File System
+    original: Amazon Elastic File System
     description: Managed File Storage for EC2
     see: https://aws.amazon.com/efs/
 
   - word: Glacier
-    desc: Amazon Glacier
+    original: Amazon Glacier
     description: Low-Cost Archive Storage in the Cloud
     see: https://aws.amazon.com/glacier/
 
   - word: StorageGateway
-    desc: AWS Storage Gateway
+    original: AWS Storage Gateway
     description: Hybrid Storage Integration
     see: https://aws.amazon.com/storagegateway/
 
   - word: Snowball
-    desc: AWS Snowball
+    original: AWS Snowball
     description: Petabyte-scale Data Transport
     see: https://aws.amazon.com/snowball/
 
   - word: Edge
-    desc: AWS Snowball Edge
+    original: AWS Snowball Edge
     description: Petabyte-scale Data Transport with On-board Compute
     see: https://aws.amazon.com/snowball-edge/
 
   - word: Snowmobile
-    desc: AWS Snowmobile
+    original: AWS Snowmobile
     description: Exabyte-scale Data Transport
     see: https://aws.amazon.com/snowmobile/
 
   - word: Aurora
-    desc: Amazon Aurora
+    original: Amazon Aurora
     description: High Performance Managed Relational Database
     see: https://aws.amazon.com/rds/aurora/
 
   - word: RDS
-    desc: Amazon RDS
+    original: Amazon RDS
     description: Managed Relational Database Service for MySQL, PostgreSQL, Oracle, SQL Server, and MariaDB
     see: https://aws.amazon.com/rds/
 
   - word: DynamoDB
-    desc: Amazon DynamoDB
+    original: Amazon DynamoDB
     description: Managed NoSQL Database
     see: https://aws.amazon.com/dynamodb/
 
   - word: ElastiCache
-    desc: Amazon ElastiCache
+    original: Amazon ElastiCache
     description: In-Memory Caching System
     see: https://aws.amazon.com/elasticache/
   - word: Elasti
 
   - word: Redshift
-    desc: Amazon Redshift
+    original: Amazon Redshift
     description: Fast, Simple, Cost-Effective Data Warehousing
     see: https://aws.amazon.com/redshift/
 
   - word: DMS
-    desc: AWS Database Migration Service
+    original: AWS Database Migration Service
     description: Migrate Databases with Minimal Downtime
     see: https://aws.amazon.com/dms/
 
   - word: ServerMigrationService
-    desc: AWS Server Migration Service
+    original: AWS Server Migration Service
     description: Migrate On-Premises Servers to AWS
     see: https://aws.amazon.com/server-migration-service/
 
   - word: CloudFront
-    desc: Amazon CloudFront
+    original: Amazon CloudFront
     description: Global Content Delivery Network
     see: https://aws.amazon.com/cloudfront/
 
   - word: Route53
-    desc: Amazon Route 53
+    original: Amazon Route 53
     description: Scalable Domain Name System
     see: https://aws.amazon.com/route53/
 
   - word: DirectConnect
-    desc: AWS Direct Connect
+    original: AWS Direct Connect
     description: Dedicated Network Connection to AWS
     see: https://aws.amazon.com/directconnect/
 
   - word: ELB
-    desc: Elastic Load Balancing
+    original: Elastic Load Balancing
     description: High Scale Load Balancing
     see: https://aws.amazon.com/elasticloadbalancing/
 
   - word: CodeCommit
-    desc: AWS CodeCommit
+    original: AWS CodeCommit
     description: Store Code in Private Git Repositories
     see: https://aws.amazon.com/codecommit/
 
   - word: CodeBuild
-    desc: AWS CodeBuild
+    original: AWS CodeBuild
     description: Build and Test Code
     see: https://aws.amazon.com/codebuild/
 
   - word: CodeDeploy
-    desc: AWS CodeDeploy
+    original: AWS CodeDeploy
     description: Automate Code Deployment
     see: https://aws.amazon.com/codedeploy/
 
   - word: CodePipeline
-    desc: AWS CodePipeline
+    original: AWS CodePipeline
     description: Release Software using Continuous Delivery
     see: https://aws.amazon.com/codepipeline/
 
   - word: X-Ray
-    desc: AWS X-Ray
+    original: AWS X-Ray
     description: Analyze and Debug Your Applications
     see: https://aws.amazon.com/xray/
 
   - word: CLI
-    desc: AWS Command Line Interface
+    original: AWS Command Line Interface
     description: Unified Tool to Manage AWS Services
     see: https://aws.amazon.com/cli/
 
   - word: CloudWatch
-    desc: Amazon CloudWatch
+    original: Amazon CloudWatch
     description: Monitor Resources and Applications
     see: https://aws.amazon.com/cloudwatch/
 
   - word: SystemsManager
-    desc: Amazon EC2 Systems Manager
+    original: Amazon EC2 Systems Manager
     description: Configure and Manage EC2 Instances and On-premises Servers
     see: https://aws.amazon.com/ec2/systems-manager/
 
   - word: CloudFormation
-    desc: AWS CloudFormation
+    original: AWS CloudFormation
     description: Create and Manage Resources with Templates
     see: https://aws.amazon.com/cloudformation/
 
   - word: CloudTrail
-    desc: AWS CloudTrail
+    original: AWS CloudTrail
     description: Track User Activity and API Usage
     see: https://aws.amazon.com/cloudtrail/
 
   - word: Config
-    desc: AWS Config
+    original: AWS Config
     description: Track Resource Inventory and Changes
     see: https://aws.amazon.com/config/
 
   - word: OpsWorks
-    desc: AWS OpsWorks
+    original: AWS OpsWorks
     description: Automate Operations with Chef
     see: https://aws.amazon.com/opsworks/
 
   - word: ServiceCatalog
-    desc: AWS Service Catalog
+    original: AWS Service Catalog
     description: Create and Use Standardized Products
     see: https://aws.amazon.com/servicecatalog/
 
   - word: TrustedAdvisor
-    desc: AWS Trusted Advisor
+    original: AWS Trusted Advisor
     description: Optimize Performance and Security
     see: https://aws.amazon.com/trustedadvisor/
 
   - word: PHD
-    desc: AWS Personal Health Dashboard
+    original: AWS Personal Health Dashboard
     description: Personalized view of AWS service health
     see: https://aws.amazon.com/premiumsupport/phd/
 
   - word: IAM
-    desc: AWS Identity &amp; Access Management
+    original: AWS Identity &amp; Access Management
     description: Manage User Access and Encryption Keys
     see: https://aws.amazon.com/iam/
 
   - word: Inspector
-    desc: Amazon Inspector
+    original: Amazon Inspector
     description: Analyze Application Security
     see: https://aws.amazon.com/inspector/
 
   - word: ACM
-    desc: AWS Certificate Manager
+    original: AWS Certificate Manager
     description: Provision, Manage, and Deploy SSL/TLS Certificates
     see: https://aws.amazon.com/certificate-manager/
 
   - word: CloudHSM
-    desc: AWS CloudHSM
+    original: AWS CloudHSM
     description: Hardware-based Key Storage for Regulatory Compliance
     see: https://aws.amazon.com/cloudhsm/
 
   - word: DirectoryService
-    desc: AWS Directory Service
+    original: AWS Directory Service
     description: Host and Manage Active Directory
     see: https://aws.amazon.com/directoryservice/
 
   - word: KMS
-    desc: AWS Key Management Service
+    original: AWS Key Management Service
     description: Managed Creation and Control of Encryption Keys
     see: https://aws.amazon.com/kms/
 
   - word: Organizations
-    desc: AWS Organizations
+    original: AWS Organizations
     description: Manage Settings for Multiple Accounts
     see: https://aws.amazon.com/organizations/
 
   - word: Shield
-    desc: AWS Shield
+    original: AWS Shield
     description: DDoS Protection
     see: https://aws.amazon.com/shield/
 
-    desc: WAF
+    original: WAF
   - word: AWS WAF
     description: Filter Malicious Web Traffic
     see: https://aws.amazon.com/waf/
 
-    desc: Athena
+    original: Athena
   - word: Amazon Athena
     description: Query Data in S3 using SQL
     see: https://aws.amazon.com/athena/
 
-    desc: EMR
+    original: EMR
   - word: Amazon EMR
     description: Hosted Hadoop Framework
     see: https://aws.amazon.com/elasticmapreduce/
 
-    desc: CloudSearch
-    desc: Amazon CloudSearch
+    original: CloudSearch
+    original: Amazon CloudSearch
     description: Managed Search Service
     see: https://aws.amazon.com/cloudsearch/
 
   - word: Elasticsearch
-    desc: Amazon Elasticsearch Service
+    original: Amazon Elasticsearch Service
     description: Run and Scale Elasticsearch Clusters
     see: https://aws.amazon.com/elasticsearch-service/
 
   - word: Kinesis
-    desc: Amazon Kinesis
+    original: Amazon Kinesis
     description: Work with Real-Time Streaming Data
     see: https://aws.amazon.com/kinesis/
 
   - word: Redshift
-    desc: Amazon Redshift
+    original: Amazon Redshift
     description: Fast, Simple, Cost-Effective Data Warehousing
     see: https://aws.amazon.com/redshift/
 
   - word: Quicksight
-    desc: Amazon Quicksight
+    original: Amazon Quicksight
     description: Fast Business Analytics Service
     see: https://quicksight.aws
 
   - word: DataPipeline
-    desc: AWS Data Pipeline
+    original: AWS Data Pipeline
     description: Orchestration Service for Periodic, Data-Driven Workflows
     see: https://aws.amazon.com/datapipeline/
 
   - word: Glue
-    desc: AWS Glue
+    original: AWS Glue
     description: Prepare and Load Data
     see: https://aws.amazon.com/glue/
 
   - word: Lex
-    desc: Amazon Lex
+    original: Amazon Lex
     description: Build Voice and Text Chatbots
     see: https://aws.amazon.com/lex/
 
   - word: Polly
-    desc: Amazon Polly
+    original: Amazon Polly
     description: Turn Text into Lifelike Speech
     see: https://aws.amazon.com/polly/
 
   - word: Rekognition
-    desc: Amazon Rekognition
+    original: Amazon Rekognition
     description: Search and Analyze Images
     see: https://aws.amazon.com/rekognition/
 
   - word: MachineLearning
-    desc: Amazon Machine Learning
+    original: Amazon Machine Learning
     description: Machine Learning for Developers
     see: https://aws.amazon.com/machine-learning/
 
   - word: MobileHub
-    desc: AWS Mobile Hub
+    original: AWS Mobile Hub
     description: Build, Test, and Monitor Apps
     see: https://aws.amazon.com/mobile/
 
   - word: APIGateway
-    desc: Amazon API Gateway
+    original: Amazon API Gateway
     description: Build, Deploy, and Manage APIs
     see: https://aws.amazon.com/api-gateway/
 
   - word: Cognito
-    desc: Amazon Cognito
+    original: Amazon Cognito
     description: User Identity and App Data Synchronization
     see: https://aws.amazon.com/cognito/
 
   - word: Pinpoint
-    desc: Amazon Pinpoint
+    original: Amazon Pinpoint
     description: Push Notifications for Mobile Apps
     see: https://aws.amazon.com/pinpoint/
 
   - word: DeviceFarm
-    desc: AWS Device Farm
+    original: AWS Device Farm
     description: Test Android, FireOS, and iOS Apps on Real Devices in the Cloud
     see: https://aws.amazon.com/device-farm/
 
   - word: MobileSDK
-    desc: AWS Mobile SDK
+    original: AWS Mobile SDK
     description: Mobile Software Development Kit
     see: https://aws.amazon.com/mobile/sdk/
 
   - word: StepFunctions
-    desc: AWS Step Functions
+    original: AWS Step Functions
     description: Coordinate Distributed Applications
     see: https://aws.amazon.com/step-functions/
 
   - word: APIGateway
-    desc: Amazon API Gateway
+    original: Amazon API Gateway
     description: Build, Deploy, and Manage APIs
     see: https://aws.amazon.com/api-gateway/
 
   - word: Transcoder
-    desc: Amazon Elastic Transcoder
+    original: Amazon Elastic Transcoder
     description: Easy-to-Use Scalable Media Transcoding
     see: https://aws.amazon.com/elastictranscoder/
 
   - word: SQS
-    desc: Amazon SQS
+    original: Amazon SQS
     description: Message Queue Service
     see: https://aws.amazon.com/sqs/
 
   - word: SNS
-    desc: Amazon SNS
+    original: Amazon SNS
     description: Push Notification Service
     see: https://aws.amazon.com/sns/
 
   - word: Pinpoint
-    desc: Amazon Pinpoint
+    original: Amazon Pinpoint
     description: Push Notifications for Mobile Apps
     see: https://aws.amazon.com/pinpoint/
 
   - word: SES
-    desc: Amazon SES
+    original: Amazon SES
     description: Email Sending and Receiving Service
     see: https://aws.amazon.com/ses/
 
   - word: WorkDocs
-    desc: WorkDocs
+    original: WorkDocs
     description: Enterprise Storage and Sharing Service
     see: https://aws.amazon.com/workdocs/
 
   - word: WorkMail
-    desc: Amazon WorkMail
+    original: Amazon WorkMail
     description: Secure and Managed Business Email and Calendaring
     see: https://aws.amazon.com/workmail/
 
   - word: Amazon WorkSpaces
-    desc: Amazon WorkSpaces
+    original: Amazon WorkSpaces
     description: Desktop Computing Service
     see: https://aws.amazon.com/workspaces/
 
   - word: AppStream
-    desc: Amazon AppStream 2.0
+    original: Amazon AppStream 2.0
     description: Stream desktop applications securely to a browser
     see: https://aws.amazon.com/appstream2/
 
   - word: IoT
-    desc: AWS IoT Platform
+    original: AWS IoT Platform
     description: Connect Devices to the Cloud
     see: https://aws.amazon.com/iot/
 
   - word: Greengrass
-    desc: AWS Greengrass
+    original: AWS Greengrass
     description: Local Compute, Messaging, and Sync for Devices
     see: https://aws.amazon.com/greengrass/
 
   - word: IoTButton
-    desc: AWS IoT Button
+    original: AWS IoT Button
     description: Cloud Programmable Dash Button
     see: https://aws.amazon.com/iot/button/
 
   - word: Lumberyard
-    desc: Amazon Lumberyard
+    original: Amazon Lumberyard
     description: A Free Cross-Platform 3D Game Engine, with Full Source, Integrated with AWS and Twitch
     see: https://aws.amazon.com/lumberyard/
