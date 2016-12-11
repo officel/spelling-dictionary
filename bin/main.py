@@ -85,10 +85,10 @@ def main():
     # Check arg length
     #
     if 1 < len(sys.argv):
-        print "You cannot use args now. Please remove it and retry."
+        print("You cannot use args now. Please remove it and retry.")
         sys.exit(1)
 
-    print "Creating .dic files..."
+    print("Creating .dic files...")
 
     #
     # Get file path.
@@ -105,7 +105,7 @@ def main():
         basename = os.path.splitext(os.path.basename(yaml_file_path))[0]
         yaml_data = load_yaml_file(yaml_file_path)
 
-        print "Dictionary name: %s" % basename
+        print("Dictionary name: %s" % basename)
 
         #
         # Create .dic file and readme file.
@@ -116,7 +116,7 @@ def main():
     #
     # Finishes creating separated .dic and readme files. Create all.dic file.
     #
-    print "%d .dic file is created.\nNow creating all.dic file..." % len(yaml_file_list)
+    print("%d .dic file is created.\nNow creating all.dic file..." % len(yaml_file_list))
 
     dictionary_file_list = get_file_list(dictionaries_path, ".dic")
 
@@ -138,7 +138,7 @@ def main():
     f.write(all_words)
     f.close()
 
-    print "Done! find %d .dic files and all words are written in all.dic files." % len(dictionary_file_list)
+    print("Done! find %d .dic files and all words are written in all.dic files." % len(dictionary_file_list))
 
 
 #
