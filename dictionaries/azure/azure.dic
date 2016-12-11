@@ -1,7 +1,9 @@
-
-azure
+documentdb
+hdinsight
 storsimple
-#...?
+stor
+expressroute
+devtest
+biztalk
 cortana
-#bingautosuggestapi
 autosuggest
