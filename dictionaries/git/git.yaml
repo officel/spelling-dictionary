@@ -1,0 +1,46 @@
+title: git
+description: |
+    Git is a free and open source distributed version control system designed to
+    handle everything from small to very large projects with speed and efficiency.
+
+see: https://git-scm.com/
+
+words:
+
+  - word: gitglossary
+  - word: mergetool
+  - word: shortlog
+  - word: workflows
+  - word: fsck
+  - word: reflog
+  - word: reflogs
+  - word: instaweb
+  - word: worktree
+
+  - word: changeset
+    note: \@consultation changeset, changesets...
+
+  - word: changesets
+  - word: committish
+  - word: ishes
+  - word: pathspec
+
+  - word: pickaxe
+    note: \@consultation pick + axe _no
+
+  - word: diffcore
+  - word: pseudorefs
+  - word: gitrevisions
+  - word: subhierarchies
+  - word: refspec
+  - word: superproject
+  - word: symref
+  - word: treeish
+  - word: gittutorial
+  - word: gitcvs
+  - word: giteveryday
+  - word: cvsps
+  - word: gitfile
+
+  - word: pseudoref
+    note: \@consultation pseudoref
