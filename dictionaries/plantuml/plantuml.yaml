@@ -1,0 +1,52 @@
+title: PlantUML
+description: PlantUML is an open source tool for creating UML diagrams from a simple textual description.
+
+see: http://plantuml.com/
+
+exclude-words:
+  - word: WavesArmes
+    description: what's mean "WavesArmes"?
+  - word: Archimate
+    description: https://en.wikipedia.org/wiki/ArchiMate
+  - word: endheader
+    description: Decided not to include the following (maybe better to separate them. ex end header)
+  - word: endfooter
+  - word: endtitle
+  - word: endlegend
+  - word: endnote
+  - word: endwhile
+  - word: endfork
+  - word: endhnote
+  - word: endrnote
+
+words:
+  - word: iuml
+  - word: puml
+  - word: checkversion
+  - word: includeurl
+  - word: definelong
+  - word: enddefinelong
+  - word: ifdef
+  - word: startuml
+  - word: enduml
+  - word: usecase
+  - word: footbox
+  - word: autonumber
+  - word: newpage
+  - word: hnote
+  - word: rnote
+  - word: encodesprite
+  - word: skinparam
+  - word: backgroundcolor
+  - word: roundcorner
+  - word: maxmessagesize
+  - word: guillemet
+  - word: englobers
+  - word: jcckit
+  - word: Archimate
+  - word: listsprite
+  - word: creole
+  - word: openiconic
+  - word: listopeniconic
+  - word: startsalt
+  - word: endsalt

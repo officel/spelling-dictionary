@@ -1,28 +1,10 @@
 # Samples
+[PlantUML](http://plantuml.com/)
 
+## Description
 PlantUML is an open source tool for creating UML diagrams from a simple textual description.
 
-see: http://plantuml.com/
-
-## Note
-
-* what's mean "WavesArmes"?
-* [Archimate](https://en.wikipedia.org/wiki/ArchiMate)
-  * listsprite is list all possible sprites
-* Decided not to include the following (maybe better to separate them. ex end header)
-  * endheader
-  * endfooter
-  * endtitle
-  * endlegend
-  * endnote
-  * endwhile
-  * endfork
-  * endhnote
-  * endrnote
-
-
-## list
-
+## List
 * iuml
 * puml
 * checkversion
@@ -53,3 +35,4 @@ see: http://plantuml.com/
 * listopeniconic
 * startsalt
 * endsalt
+
