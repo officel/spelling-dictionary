@@ -1,16 +1,10 @@
 # Samples
+[JetBrains](https://www.jetbrains.com/products.html?fromMenu)
 
+## Description
 Why is not the word called "jetbrains" listed in the default dictionary.
 
-see: https://www.jetbrains.com/products.html?fromMenu
-
-## Note
-
-* Toolbox App
-  * The word "app" is not registered because it has other influences.
-
-## list
-
+## List
 * JetBrains
 * IntelliJ
 * PhpStorm
@@ -33,3 +27,4 @@ see: https://www.jetbrains.com/products.html?fromMenu
 * Kotlin
 * MPS
 * ToolBox
+
