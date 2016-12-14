@@ -1,0 +1,14 @@
+title: google
+description: Google’s mission is to organize the world’s information and make it universally accessible and useful.
+see: https://www.google.com/intl/en/about/
+
+words:
+  - word: Stackdriver
+  - word: Bigtable
+  - word: Datastore
+  - word: Interconnect
+  - word: BigQuery
+  - word: Dataproc
+  - word: Datalab
+  - word: Genomics
+  - word: Endpoints
