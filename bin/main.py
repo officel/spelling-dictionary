@@ -40,7 +40,7 @@ def load_yaml_file(file_path):
 # Creates .dic file from yaml data.
 #
 def create_dictionary_file(yaml_data, dictionary_path):
-    f = open(dictionary_path, "w")
+    f = open(dictionary_path, "wb")
 
     for word_card in yaml_data["words"]:
         f.write(word_card["word"].lower() + "\n")
@@ -59,17 +59,17 @@ def create_readme_file(yaml_data, readme_path):
         word_list += "* " + word_card["word"] + "\n"
 
     readme_text = """\
-# Samples
-[{title}]({see})
-
-## Description
-{description}
-
-## List
-{word_list}
+# Samples\n
+[{title}]({see})\n
+\n
+## Description\n
+{description}\n
+\n
+## List\n
+{word_list}\n
 """.format(title=yaml_data["title"], see=yaml_data["see"], description=yaml_data["description"], word_list=word_list)
 
-    f = open(readme_path, "w")
+    f = open(readme_path, "wb")
 
     f.write(readme_text)
 
