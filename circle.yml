@@ -1,11 +1,11 @@
 machine:
-  post:
-   - pyenv global 2.7.9 3.4.2
+  pre:
+   - pyenv global 2.7.11 3.5.1
 
 test:
   pre:
-    - echo 'test pre'
+    - which python
 
   override:
-    - echo 'ok'
+    - python -c 'print("ok")'
     - pip list
