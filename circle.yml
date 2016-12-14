@@ -1,10 +1,16 @@
+general:
+  branches:
+    only:
+      - master
+
 machine:
   pre:
-   - pyenv global 2.7.11 3.5.1
+   - pyenv global 3.5.1
 
 test:
   pre:
     - which python
+    - python --version
 
   override:
     - python -c 'print("ok")'
