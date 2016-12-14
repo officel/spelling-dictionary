@@ -12,6 +12,7 @@ test:
   pre:
     - which python
     - python --version
+    - python bin/main.py
 
   override:
     - python -c 'print("ok")'
