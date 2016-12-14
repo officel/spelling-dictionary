@@ -1,17 +1,13 @@
 # Samples
+[git](https://git-scm.com/)
 
-[git](https://git-scm.com/) .
+## Description
+Git is a free and open source distributed version control system designed to
+handle everything from small to very large projects with speed and efficiency.
 
-## Note
 
-see: https://git-scm.com/docs
-
-gitglossary ..._no
-
-## list
-
+## List
 * gitglossary
-
 * mergetool
 * shortlog
 * workflows
@@ -20,13 +16,11 @@ gitglossary ..._no
 * reflogs
 * instaweb
 * worktree
-# @consultation: changeset, changesets...
 * changeset
 * changesets
 * committish
 * ishes
 * pathspec
-# @consultation: pick + axe _no
 * pickaxe
 * diffcore
 * pseudorefs
@@ -41,5 +35,5 @@ gitglossary ..._no
 * giteveryday
 * cvsps
 * gitfile
-# @consultation: pseudoref
 * pseudoref
+

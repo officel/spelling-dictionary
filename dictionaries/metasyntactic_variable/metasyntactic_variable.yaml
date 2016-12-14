@@ -1,0 +1,71 @@
+title: Metasyntactic Variables
+description:  |
+    Metasyntactic Variable is meaningless placeholder name.
+
+    RFC 3092 define metasyntactic variables foo ~ thud.
+    In Japan, hoge ~ hogera are general metasyntactic variables.
+
+see: https://www.ietf.org/rfc/rfc3092.txt
+words:
+  - word: foo
+    see: https://www.ietf.org/rfc/rfc3092.txt
+
+  - word: bar
+    see: https://www.ietf.org/rfc/rfc3092.txt
+
+  - word: foobar
+    see: https://www.ietf.org/rfc/rfc3092.txt
+
+  - word: baz
+    see: https://www.ietf.org/rfc/rfc3092.txt
+
+  - word: qux
+    see: https://www.ietf.org/rfc/rfc3092.txt
+
+  - word: quux
+    see: https://www.ietf.org/rfc/rfc3092.txt
+
+  - word: corge
+    see: https://www.ietf.org/rfc/rfc3092.txt
+
+  - word: grault
+    see: https://www.ietf.org/rfc/rfc3092.txt
+
+  - word: garply
+    see: https://www.ietf.org/rfc/rfc3092.txt
+
+  - word: waldo
+    see: https://www.ietf.org/rfc/rfc3092.txt
+
+  - word: fred
+    see: https://www.ietf.org/rfc/rfc3092.txt
+
+  - word: plugh
+    see: https://www.ietf.org/rfc/rfc3092.txt
+
+  - word: xyzzy
+    see: https://www.ietf.org/rfc/rfc3092.txt
+
+  - word: thud
+    see: https://www.ietf.org/rfc/rfc3092.txt
+
+  - word: hoge
+    description: First metasyntactic variables for Japanese.
+
+  - word: fuga
+    description: Second metasyntactic variables for Japanese.
+
+  - word: piyo
+    description: Third metasyntactic variables for Japanese.
+
+  - word: hogehoge
+    description: Word commonly used by Japanese.
+
+  - word: fugafuga
+    description: Word commonly used by Japanese.
+
+  - word: piyopiyo
+    description: Word commonly used by Japanese.
+
+  - word: hogera
+    description: Word commonly used by Japanese.

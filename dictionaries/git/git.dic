@@ -1,4 +1,3 @@
-
 gitglossary
 mergetool
 shortlog
@@ -8,13 +7,11 @@ reflog
 reflogs
 instaweb
 worktree
-#@consultation:changeset,changesets...
 changeset
 changesets
 committish
 ishes
 pathspec
-#@consultation:pick+axe_no
 pickaxe
 diffcore
 pseudorefs
@@ -29,5 +26,4 @@ gitcvs
 giteveryday
 cvsps
 gitfile
-#@consultation:pseudoref
 pseudoref

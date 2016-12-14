@@ -1,0 +1,414 @@
+title: Microsoft Azure
+description: |
+   Microsoft Azure is a growing collection of integrated cloud services
+   analytics, computing, database, mobile, networking, storage and web
+   for moving faster, achieving more and saving money. Here’s what you can do with Azure
+   https://azure.microsoft.com
+
+see: https://azure.microsoft.com/en-us/services/
+
+exclude-words:
+  - word: Virtual Machines
+    description: Provision Windows and Linux virtual machines in minutes
+    see: https://azure.microsoft.com/en-us/documentation/services/virtual-machines/
+
+  - word: App Service
+    description: Create web and mobile apps for any platform and any device
+    see: https://azure.microsoft.com/en-us/documentation/services/app-service/
+
+  - word: SQL Database
+    description: Managed relational SQL Database-as-a-service
+    see: https://azure.microsoft.com/en-us/documentation/services/sql-database/
+
+  - word: Storage
+    description: Durable, highly available, and massively scalable cloud storage
+    see: https://azure.microsoft.com/en-us/documentation/services/storage/
+
+  - word: Cloud Services
+    description: Create highly available, infinitely scalable cloud applications and APIs
+    see: https://azure.microsoft.com/en-us/documentation/services/cloud-services/
+
+  - word: Azure Active Directory
+    description: Synchronize on-premises directories and enable single sign-on
+    see: https://azure.microsoft.com/en-us/documentation/services/active-directory/
+
+  - word: Backup
+    description: Simple and reliable server backup to the cloud
+    see: https://azure.microsoft.com/en-us/documentation/services/backup/
+
+  - word: Batch
+    description: Run large-scale parallel and batch compute jobs
+    see: https://azure.microsoft.com/en-us/documentation/services/batch/
+
+  - word: Azure Container Registry
+    description: Store images for container deployments—Docker Swarm, DC/OS, and more
+    see: https://azure.microsoft.com/en-us/documentation/services/container-registry/
+
+  - word: Visual Studio Team Services
+    description: Services for teams to share code, track work, and ship software
+    see: https://www.visualstudio.com/docs/overview
+
+  - word: API Management
+    description: Publish APIs to developers, partners and employees securely and at scale
+    see: https://azure.microsoft.com/en-us/documentation/services/api-management/
+
+  - word: Azure IoT Hub
+    description: Connect, monitor, and control billions of IoT assets
+    see: https://docs.microsoft.com/en-us/azure/iot-hub/
+
+  - word: CDN
+    description: Deliver content to end-users through a robust network of global data centers
+    see: https://azure.microsoft.com/en-us/documentation/services/cdn/
+
+  - word: Site Recovery
+    description: Orchestrate protection and recovery of private clouds
+    see: https://azure.microsoft.com/en-us/documentation/services/site-recovery/
+
+  - word: Azure DNS
+    description: Host your DNS domain in Azure
+    see: https://azure.microsoft.com/en-us/documentation/services/dns/
+
+  - word: Machine Learning
+    description: Powerful cloud based predictive analytics tool to enable predictive maintenance
+    see: https://azure.microsoft.com/en-us/documentation/services/machine-learning/
+
+  - word: Service Fabric
+    description: Build and operate always-on, scalable, distributed applications
+    see: https://azure.microsoft.com/en-us/documentation/services/service-fabric/
+
+  - word: Multi-Factor Authentication
+    description: Safeguard access to your data and apps with an extra level of authentication
+    see: https://azure.microsoft.com/en-us/documentation/services/multi-factor-authentication/
+
+  - word: Application Insights
+    description: Detect, triage, and diagnose issues in your web apps and services
+    see: https://azure.microsoft.com/en-us/documentation/services/application-insights/
+
+  - word: SQL Data Warehouse
+    description: Elastic data warehouse-as-a-service with enterprise-class features
+    see: https://azure.microsoft.com/en-us/documentation/services/sql-data-warehouse/
+
+  - word: Virtual Network
+    description: Provision private networks, optionally connect to on-premises datacenters
+    see: https://azure.microsoft.com/en-us/documentation/services/virtual-network/
+
+  - word: Media Services
+    description: Encode, store, and stream video and audio at scale
+    see: https://azure.microsoft.com/en-us/documentation/services/media-services/
+
+  - word: Stream Analytics
+    description: Real-time data stream processing from millions of IoT devices
+    see: https://azure.microsoft.com/en-us/documentation/services/stream-analytics/
+
+  - word: Azure Active Directory Domain Services
+    description: Join Azure virtual machines to a domain without domain controllers
+    see: https://docs.microsoft.com/en-us/azure/active-directory-domain-services/
+
+  - word: Advisor
+    description: Your personalized Azure best practices recommendation engine
+
+  - word: Event Hubs
+    description: Receive telemetry from millions of devices
+    see: https://azure.microsoft.com/en-us/documentation/services/event-hubs/
+
+  - word: Data Factory
+    description: Orchestrate and manage data transformation and movement
+    see: https://azure.microsoft.com/en-us/documentation/services/data-factory/
+
+  - word: Key Vault
+    description: Safeguard and maintain control of keys and other secrets
+    see: https://azure.microsoft.com/en-us/documentation/services/key-vault/
+
+  - word: Service Bus
+    description: Connect across private and public cloud environments
+    see: https://azure.microsoft.com/en-us/documentation/services/service-bus/
+
+  - word: Azure Active Directory B2C
+    description: Consumer identity and access management in the cloud
+    see: https://azure.microsoft.com/en-us/documentation/services/active-directory-b2c/
+
+  - word: Scheduler
+    description: Run your jobs on simple or complex recurring schedules
+    see: https://azure.microsoft.com/en-us/documentation/services/scheduler/
+
+  - word: Notification Hubs
+    description: A scalable, push notification engine for quickly sending millions of messages
+    see: https://azure.microsoft.com/en-us/documentation/services/notification-hubs/
+
+  - word: Automation
+    description: Simplify cloud management with process automation
+    see: https://azure.microsoft.com/en-us/documentation/services/automation/
+
+  - word: Log Analytics
+    description: Collect, search and visualize machine data from on-premises and cloud
+    see: https://azure.microsoft.com/en-us/documentation/services/log-analytics/
+
+  - word: Security Center
+    description: Prevent, detect, and respond to threats with increased visibility
+    see: https://azure.microsoft.com/en-us/documentation/services/security-center/
+
+  - word: Traffic Manager
+    description: Route incoming traffic for high performance and availability
+    see: https://azure.microsoft.com/en-us/documentation/services/traffic-manager/
+
+  - word: Redis Cache
+    description: High throughput, low latency data access to build fast and scalable applications
+    see: https://azure.microsoft.com/en-us/documentation/services/redis-cache/
+
+  - word: Search
+    description: Fully-managed search-as-a-service
+    see: https://azure.microsoft.com/en-us/documentation/services/search/
+
+  - word: Load Balancer
+    description: Deliver high availability and network performance to your applications
+    see: https://azure.microsoft.com/en-us/documentation/services/load-balancer/
+
+  - word: VPN Gateway
+    description: Establish secure, cross-premises connectivity
+    see: https://azure.microsoft.com/en-us/documentation/services/vpn-gateway/
+
+  - word: Application Gateway
+    description: Layer 7 Load Balancer with built-in HTTP load balancing and delivery control
+    see: https://azure.microsoft.com/en-us/documentation/services/application-gateway/
+
+  - word: Data Catalog
+    description: Data source discovery to get more value from existing enterprise data assets
+    see: https://azure.microsoft.com/en-us/documentation/services/data-catalog/
+
+  - word: Virtual Machine Scale Sets
+    description: Manage and scale 10s to 1000s of Linux and Windows VMs
+    see: https://azure.microsoft.com/en-us/documentation/services/virtual-machine-scale-sets/
+
+  - word: Power BI Embedded
+    description: Embed fully interactive, stunning data visualizations in your applications
+    see: https://azure.microsoft.com/en-us/documentation/services/power-bi-embedded/
+
+  - word: Mobile Engagement
+    description: Increase app usage and user retention
+    see: https://azure.microsoft.com/en-us/documentation/services/mobile-engagement/
+
+  - word: Data Lake Store
+    description: Hyperscale repository for big data analytics workloads
+    see: https://azure.microsoft.com/en-us/documentation/services/data-lake-store/
+
+  - word: Data Lake Analytics
+    description: Distributed analytics service that makes big data easy
+    see: https://azure.microsoft.com/en-us/documentation/services/data-lake-analytics/
+
+  - word: Cognitive Services
+    description: Add smart API capabilities to enable contextual interactions
+    see: https://azure.microsoft.com/en-us/documentation/services/cognitive-services/
+
+  - word: Azure Bot Service
+    description: Intelligent, serverless bot service that scales on demand
+    see: http://docs.botframework.com/en-us/azure-bot-service/
+
+  - word: Azure Container Service
+    description: Use Docker based tools to deploy and manage containers
+    see: https://azure.microsoft.com/en-us/documentation/services/container-service/
+
+  - word: SQL Server Stretch Database
+    description: Dynamically stretch on-premises SQL Server databases to Azure
+    see: https://azure.microsoft.com/en-us/documentation/services/sql-server-stretch-database/
+
+  - word: HockeyApp
+    description: Deploy mobile apps, collect feedback and crash reports, and monitor usage
+    see: https://support.hockeyapp.net/kb
+
+  - word: Functions
+    description: Process events with serverless code
+    see: https://azure.microsoft.com/en-us/documentation/services/functions/
+
+  - word: Logic Apps
+    description: Automate the access and use of data across clouds without writing code
+    see: https://azure.microsoft.com/en-us/documentation/services/logic-apps/
+
+  - word: IoT Suite
+    description: Capture and analyze untapped data to improve business results
+    see: https://azure.microsoft.com/en-us/documentation/suites/iot-suite/
+
+  - word: Operations Management Suite
+    description: Manage and protect your cloud and on-premises infrastructure
+    see: https://azure.microsoft.com/en-us/documentation/suites/operations-management-suite/
+
+  - word: Encoding
+    description: Studio Grade encoding at cloud scale
+
+  - word: Live and On-Demand Streaming
+    description: Deliver content to virtually all devices with scale to meet business needs
+
+  - word: Azure Media Player
+    description: A single layer for all your playback needs
+
+  - word: Channels
+
+  - word: Content Protection
+    description: Securely deliver content using AES, PlayReady, Widevine, and Fairplay
+
+  - word: Azure Media Indexer
+
+  - word: Blob Storage
+    description: REST-based object storage for unstructured data
+
+  - word: Disk Storage
+    description: Persistent, secured disk options supporting virtual machines
+
+  - word: Web Apps
+    description: Quickly create and deploy mission critical Web apps at scale
+    see: https://azure.microsoft.com/en-us/documentation/services/app-service/web/
+
+  - word: Mobile Apps
+    description: Build and host the backend for any mobile app
+    see: https://azure.microsoft.com/en-us/documentation/services/app-service/mobile/
+
+  - word: API Apps
+    description: Easily build and consume Cloud APIs
+    see: https://azure.microsoft.com/en-us/documentation/services/app-service/api/
+
+  - word: Linux Virtual Machines
+    description: Provision virtual machines for Ubuntu, Red Hat, and more
+    see: https://azure.microsoft.com/en-us/documentation/services/virtual-machines/linux/
+
+  - word: Windows Virtual Machines
+    description: Provision virtual machines for SQL Server, SharePoint, and more
+    see: https://azure.microsoft.com/en-us/documentation/services/virtual-machines/windows/
+
+  - word: Text Analytics API
+    description: Easily evaluate sentiment and topics to understand what users want
+
+  - word: Recommendations API
+    description: Predict and recommend items your customers want
+
+  - word: Academic Knowledge API
+    description: Tap into the wealth of academic content in the Microsoft Academic Graph
+
+  - word: Computer Vision API
+    description: Distill actionable information from images
+
+  - word: Content Moderator
+    description: Cost-effective moderation of text, image and video content
+
+  - word: Emotion API
+    description: Personalize experiences with emotion recognition
+
+  - word: Face API
+    description: Detect, analyze, organize, and tag human faces in photos
+
+  - word: Bing Speech API
+    description: Convert speech to text and back again to understand user intent
+
+  - word: Web Language Model API
+    description: Use the power of predictive language models trained on web-scale data
+
+  - word: Language Understanding Intelligent Service
+    description: Teach your apps to understand commands from your users
+
+  - word: Speaker Recognition API
+    description: Use speech to identify and authenticate individual speakers
+
+  - word: Bing Search APIs
+    description: Web, image, video, and news search APIs for your app
+
+  - word: Bing Spell Check API
+    description: Detect and correct spelling mistakes in your app
+
+  - word: Media Analytics
+    description: Speech and Vision services at enterprise scale, compliance, security and reach
+
+  - word: SQL Server on virtual machines
+    description: Host enterprise SQL Server apps in the cloud
+
+  - word: Queue Storage
+    description: Effectively scale apps according to traffic
+
+  - word: File Storage
+    description: File shares that use the standard SMB 3.0 protocol
+
+  - word: Table Storage
+    description: NoSQL key-value store using semi-structured datasets
+
+  - word: Azure Monitor
+    description:  Highly granular and real-time monitoring data for any Azure resource.
+    see: https://azure.microsoft.com/en-us/documentation/services/monitoring-and-diagnostics/
+
+  - word: Security &amp; Compliance
+    description: Enable security across datacenter environments, including nodes in your on-premises datacenters and other cloud service providers
+    see: https://azure.microsoft.com/en-us/documentation/suites/operations-management-suite/
+
+  - word: Protection &amp; Recovery
+    description: Ensure application availability and data protection
+    see: https://azure.microsoft.com/en-us/documentation/suites/operations-management-suite/
+
+  - word: Automation &amp; Control
+    description: Continuous services and compliance with automation and configuration management
+    see: https://azure.microsoft.com/en-us/documentation/suites/operations-management-suite/
+
+  - word: Insight &amp; Analytics
+    description: Manage IT resources with a simple and unified experience—no matter the platform or public cloud
+    see: https://azure.microsoft.com/en-us/documentation/suites/operations-management-suite/
+
+  - word: Translator Speech API
+    description: Conduct real-time speech translations
+
+  - word: Translator Text API
+    description: Easily translate text into more than 50 languages
+
+  - word: Azure Analysis Services
+    description: Proven analytical engine in the cloud
+    see: https://azure.microsoft.com/en-us/documentation/services/analysis-services/
+
+  - word: Dynamics 365 for Customer Insights
+    description: Transform your customer data into actionable insights
+    see: https://docs.microsoft.com/en-us/dynamics365/customer-insights/
+
+  - word: Xamarin
+  - word: Kubernetes
+  - word: microservices
+  - word: Kerberos
+  - word: Hortonworks
+  - word: HDFS
+  - word: Cloudera
+  - word: Widevine
+  - word: Fairplay
+
+words:
+  - word: DocumentDB
+    original: DocumentDB
+    description: Managed NoSQL document database-as-a-service
+    see: https://docs.microsoft.com/en-us/azure/documentdb/
+
+  - word: HDInsight
+    original: HDInsight
+    description: Provision cloud Hadoop, Spark, R Server, HBase, and Storm clusters
+    see: https://azure.microsoft.com/en-us/documentation/services/hdinsight/
+
+  - word: StorSimple
+    original: StorSimple
+    description: Hybrid cloud storage for enterprises, reduces costs and improves data security
+    see: https://azure.microsoft.com/en-us/documentation/services/storsimple/
+
+  - word: Stor
+    original: StorSimple
+
+  - word: ExpressRoute
+    original: ExpressRoute
+    description: Dedicated private network fiber connections to Azure
+    see: https://azure.microsoft.com/en-us/documentation/services/expressroute/
+
+  - word: DevTest
+    original: Azure DevTest Labs
+    description: Quickly create environments using reusable templates and artifacts
+    see: https://azure.microsoft.com/en-us/documentation/services/devtest-lab/
+
+  - word: BizTalk
+    original: BizTalk Services
+    description: Seamlessly integrate the enterprise and the cloud
+    see: https://azure.microsoft.com/en-us/documentation/services/biztalk-services/
+
+  - word: Cortana
+    original: Cortana Intelligence
+    description: Learn how to transform your business with big data and advanced analytics
+
+  - word: Autosuggest
+    original: Bing Autosuggest API
+    description: Give your app intelligent options for searches

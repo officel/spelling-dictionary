@@ -1,174 +1,104 @@
 # Samples
+[AWS - Amazon Web Services](https://aws.amazon.com/)
 
+## Description
 Amazon Web Services (AWS) is a secure cloud services platform.
 
-see: https://aws.amazon.com/
+AWS evolves at a great speed. So we would like to follow up as needed.
+list words see: https://aws.amazon.com/products/
 
-## Note
+Amazon Web Services offers a broad set of global cloud-based products including compute, storage, databases,
+analytics, networking, mobile, developer tools, management tools, IoT, security and enterprise applications.
+These services help organizations move faster, lower IT costs, and scale.
+AWS is trusted by the largest enterprises and the hottest start-ups to power a wide variety of workloads including:
+web and mobile applications, game development, data processing and warehousing, storage, archive, and many others.
 
-* Compute
-  * Amazon EC2
-  * Amazon EC2 Container Registry
-  * Amazon EC2 Container Service
-  * AWS Elastic Beanstalk
-  * AWS Lambda
-  * Auto Scaling
-  * Elastic Load Balancing
-  * Amazon VPC
-  * AWS Server Migration Service
-* Storage & Content Delivery
-  * Amazon S3
-  * Amazon CloudFront
-  * Amazon EBS
-  * Amazon Elastic File System
-  * Amazon Glacier
-  * AWS Import/Export Snowball
-  * AWS Storage Gateway
-* Database
-  * Amazon Aurora
-  * Amazon RDS
-  * AWS Database Migration Service
-  * Amazon DynamoDB
-  * Amazon ElastiCache
-  * Amazon Redshift
-* Networking
-  * Amazon VPC
-  * AWS Direct Connect
-  * Elastic Load Balancing
-  * Amazon Route 53
-* Developer Tools
-  * AWS CodeCommit
-  * AWS CodeDeploy
-  * AWS CodePipeline
-  * AWS Command Line Tool
-* Management Tools
-  * Amazon CloudWatch
-  * AWS CloudFormation
-  * AWS CloudTrail
-  * AWS Command Line Tool
-  * AWS Config
-  * AWS Management Console
-  * AWS OpsWorks
-  * AWS Service Catalog
-  * Trusted Advisor
-* Security and Identity
-  * AWS Identity and Access Management (IAM)
-  * AWS Certificate Manager
-  * AWS CloudHSM
-  * AWS Directory Service
-  * Amazon Inspector
-  * AWS Key Management Service
-  * AWS WAF
-* Analytics
-  * Amazon EMR
-  * AWS Data Pipeline
-  * Amazon Elasticsearch Service
-  * Amazon Kinesis
-  * Amazon Machine Learning
-  * Amazon Redshift
-  * Amazon QuickSight
-* Internet of Things
-  * AWS IoT
-* Game Development
-  * Amazon Lumberyard
-* Mobile Services
-  * AWS Mobile Hub
-  * Amazon API Gateway
-  * Amazon Cognito
-  * AWS Device Farm
-  * Amazon Mobile Analytics
-  * AWS Mobile SDK
-  * Amazon SNS
-* Application Services
-  * Amazon API Gateway
-  * Amazon AppStream
-  * Amazon CloudSearch
-  * Amazon Elastic Transcoder
-  * Amazon FPS
-  * Amazon SES
-  * Amazon SNS
-  * Amazon SQS
-  * Amazon SWF
-* Enterprise Applications
-  * Amazon WorkSpaces
-  * Amazon WorkDocs
-  * Amazon WorkMail
-* Software
-  * AWS Marketplace
 
-## list
-
+## List
 * EC2
 * ECR
 * ECS
-* Elastic
+* Lightsail
+* VPC
+* Batch
 * Beanstalk
-* ElasticBeanstalk
 * Lambda
 * AutoScaling
-* ELB
-* VPC
-* SMS
 * S3
-* CloudFront
 * EBS
 * EFS
 * Glacier
+* StorageGateway
 * Snowball
+* Edge
+* Snowmobile
 * Aurora
 * RDS
-* DMS
 * DynamoDB
-* elasti
 * ElastiCache
-* ECa
+* Elasti
 * Redshift
+* DMS
+* ServerMigrationService
+* CloudFront
+* Route53
 * DirectConnect
 * ELB
-* Route53
-* R53
 * CodeCommit
+* CodeBuild
 * CodeDeploy
 * CodePipeline
+* X-Ray
 * CLI
 * CloudWatch
+* SystemsManager
 * CloudFormation
-* CFn
 * CloudTrail
+* Config
 * OpsWorks
 * ServiceCatalog
 * TrustedAdvisor
+* PHD
 * IAM
+* Inspector
 * ACM
 * CloudHSM
 * DirectoryService
-* Inspector
 * KMS
-* WAF
-* EMR
-* DataPipeline
+* Organizations
+* Shield
+* AWS WAF
+* Amazon Athena
+* Amazon EMR
 * Elasticsearch
 * Kinesis
 * Redshift
-* QuickSight
-* IoT
-* Lumberyard
+* Quicksight
+* DataPipeline
+* Glue
+* Lex
+* Polly
+* Rekognition
+* MachineLearning
 * MobileHub
+* APIGateway
 * Cognito
+* Pinpoint
 * DeviceFarm
-* MobileAnalytics
 * MobileSDK
-* SNS
-* AppStream
-* CloudSearch
+* StepFunctions
+* APIGateway
 * Transcoder
-* ElasticTranscoder
-* FPS
-* SES
-* SNS
 * SQS
-* SWF
-* WorkSpaces
+* SNS
+* Pinpoint
+* SES
 * WorkDocs
 * WorkMail
-* Marketplace
+* Amazon WorkSpaces
+* AppStream
+* IoT
+* Greengrass
+* IoTButton
+* Lumberyard
+

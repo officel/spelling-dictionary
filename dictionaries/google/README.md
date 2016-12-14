@@ -1,14 +1,10 @@
 # Samples
+[google](https://www.google.com/intl/en/about/)
 
-[google](https://www.google.com/) .
+## Description
+Google’s mission is to organize the world’s information and make it universally accessible and useful.
 
-## Note
-
-see: https://cloud.google.com/
-
-
-## list
-
+## List
 * Stackdriver
 * Bigtable
 * Datastore
@@ -18,3 +14,4 @@ see: https://cloud.google.com/
 * Datalab
 * Genomics
 * Endpoints
+
