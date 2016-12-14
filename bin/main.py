@@ -29,9 +29,8 @@ def get_file_list(root_path, search_extension):
 # Reads .yaml file and return dictionary.
 #
 def load_yaml_file(file_path):
-    f = open(file_path, "r")
-    yaml_data = yaml.load(f)
-    f.close()
+    with open(file_path, "rt", encoding="utf-8") as f:
+        yaml_data = yaml.load(f)
 
     return yaml_data
 
@@ -40,12 +39,10 @@ def load_yaml_file(file_path):
 # Creates .dic file from yaml data.
 #
 def create_dictionary_file(yaml_data, dictionary_path):
-    f = open(dictionary_path, "wb")
+    with open(dictionary_path, "wt", encoding="utf-8", newline="\n") as f:
 
-    for word_card in yaml_data["words"]:
-        f.write(word_card["word"].lower() + "\n")
-
-    f.close()
+        for word_card in yaml_data["words"]:
+            f.write(word_card["word"].lower() + "\n")
 
 
 #
@@ -59,21 +56,18 @@ def create_readme_file(yaml_data, readme_path):
         word_list += "* " + word_card["word"] + "\n"
 
     readme_text = """\
-# Samples\n
-[{title}]({see})\n
-\n
-## Description\n
-{description}\n
-\n
-## List\n
-{word_list}\n
+# Samples
+[{title}]({see})
+
+## Description
+{description}
+
+## List
+{word_list}
 """.format(title=yaml_data["title"], see=yaml_data["see"], description=yaml_data["description"], word_list=word_list)
 
-    f = open(readme_path, "wb")
-
-    f.write(readme_text)
-
-    f.close()
+    with open(readme_path, "wt", encoding="utf-8", newline="\n") as f:
+        f.write(readme_text)
 
 
 #
@@ -126,17 +120,15 @@ def main():
     # Get all .dic files and read it.
     #
     for dictionary_file_path in dictionary_file_list:
-        f = open(dictionary_file_path, "r")
-        all_words += f.read()
-        all_words + "\n\n"
-        f.close()
+        with open(dictionary_file_path, "rt", encoding="utf-8") as f:
+            all_words += f.read()
+            all_words + "\n\n"
 
     #
     # Create all.dic file.
     #
-    f = open(os.path.abspath(os.path.join(root_path, "all", "all.dic")), "w")
-    f.write(all_words)
-    f.close()
+    with open(os.path.abspath(os.path.join(root_path, "all", "all.dic")), "wt", encoding="utf-8", newline="\n") as f:
+        f.write(all_words)
 
     print("Done! find %d .dic files and all words are written in all.dic files." % len(dictionary_file_list))
 
