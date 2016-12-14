@@ -1,0 +1,18 @@
+general:
+  branches:
+    only:
+      - master
+      - circleci
+
+machine:
+  pre:
+   - pyenv global 3.5.1
+
+test:
+  pre:
+    - which python
+    - python --version
+
+  override:
+    - python -c 'print("ok")'
+    - pip list
