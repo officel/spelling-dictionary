@@ -18,4 +18,4 @@ test:
     - python -c 'print("ok")'
     - pip list
     - grep elasticache all/all.dic
-    - python -m unittest tests/test_main.py
+    - python -m unittest tests/test_main.py -v
