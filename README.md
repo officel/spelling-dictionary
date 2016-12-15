@@ -1,8 +1,8 @@
 # Spelling dictionary
 
 [![Join the chat at https://gitter.im/spelling-dictionary/Lobby](https://badges.gitter.im/spelling-dictionary/Lobby.svg)](https://gitter.im/spelling-dictionary/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
+[![CircleCI](https://circleci.com/gh/officel/spelling-dictionary/tree/master.svg?style=shield&circle-token=bcd72be9e0809e0e6fb990c7051ae7c59c87ff7c)](https://circleci.com/gh/officel/spelling-dictionary/tree/master)
 
 Spelling dictionary files (aka dic extension) for JetBrains IntelliJ IDEA or Other.
 
