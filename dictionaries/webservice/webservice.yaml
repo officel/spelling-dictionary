@@ -1,0 +1,34 @@
+title: Web Services
+description: What will become a typo in a frequently used web service
+see: https://www.google.com/
+words:
+
+  - word: gitter
+    original: gitter
+    description: Gitter is designed to make community messaging, collaboration and discovery as smooth and simple as possible.
+    see: https://gitter.im
+
+  - word: Trello
+    original: Trello
+    description: Trello lets you work more collaboratively and get more done.
+    see: https://trello.com
+
+  - word: heroku
+    original: heroku
+    description: Heroku is a cloud platform that lets companies build, deliver, monitor and scale apps — we're the fastest way to go from idea to URL, bypassing all those infrastructure headaches.
+    see: https://www.heroku.com/
+
+  - word: wercker
+    original: wercker
+    description: Wercker is a Docker-Native CI/CD Automation platform for Kubernetes & Microservice Deployments
+    see: http://www.wercker.com/
+
+  - word: conoha
+    original: ConoHa
+    description: smart & powerful Cloud service.
+    see: https://www.conoha.jp/conoha/
+
+  - word: livedoor
+    original: livedoor
+    description: portal site.
+    see: http://www.livedoor.com/
