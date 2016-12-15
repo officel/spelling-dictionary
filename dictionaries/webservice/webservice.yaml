@@ -30,5 +30,5 @@ words:
 
   - word: livedoor
     original: livedoor
-    description: portal site.
+    description: portal site and api vendor.
     see: http://www.livedoor.com/
