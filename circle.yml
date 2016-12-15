@@ -17,3 +17,4 @@ test:
   override:
     - python -c 'print("ok")'
     - pip list
+    - grep elasticache all/all.dic
