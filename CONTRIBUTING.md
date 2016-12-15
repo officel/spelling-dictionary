@@ -39,4 +39,7 @@ TYPOを正しくTYPOとして扱うための辞書作成に協力をお願いし
 # Frequently Asked Questions
 
 質問等あればなんでも投げてください。
+
 Issue が望ましい（記録に残るので）ですが、[Qiita](https://qiita.com) やその他ソーシャルメディアで声をかけていただくでも構いません。
+
+先日 [gitter](https://gitter.im/spelling-dictionary/Lobby) に room を作ってみましたので、issue にするほどでもない話題はこちらへどうぞ。
