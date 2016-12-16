@@ -22,6 +22,7 @@ class TestAllDirectory(unittest.TestCase):
         self.assertIn('dotcover', lines1)  # from jetbrains
         self.assertIn('piyo', lines1)  # from metasyntactic_variable
         self.assertIn('startuml', lines1)  # from plantuml
+        self.assertIn('gitter', lines1)  # from web service
 
 
 if __name__ == '__main__':
