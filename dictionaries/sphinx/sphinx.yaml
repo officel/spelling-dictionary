@@ -1,0 +1,27 @@
+title: Sphinx
+description: Sphinx is a tool that makes it easy to create intelligent and beautiful documentation, written by Georg Brandl and licensed under the BSD license.
+
+see: http://www.sphinx-doc.org/
+
+words:
+  - word: toctree
+  - word: genindex
+  - word: modindex
+  - word: SPHINXOPTS
+  - word: SPHINXBUILD
+  - word: SPHINXPROJ
+  - word: SOURCEDIR
+  - word: BUILDDIR
+  - word: pushd
+  - word: errorlevel
+  - word: popd
+  - word: autodoc
+  - word: githubpages
+  - word: Pygments
+  - word: htmlhelp
+  - word: letterpaper
+  - word: papersize
+  - word: pointsize
+  - word: htbp
+  - word: documentclass
+  - word: Texinfo
