@@ -23,6 +23,7 @@ class TestAllDirectory(unittest.TestCase):
         self.assertIn('piyo', lines1)  # from metasyntactic_variable
         self.assertIn('startuml', lines1)  # from plantuml
         self.assertIn('gitter', lines1)  # from web service
+        self.assertIn('toctree', lines1)  # from sphinx
 
 
 if __name__ == '__main__':
