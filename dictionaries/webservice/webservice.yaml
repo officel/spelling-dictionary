@@ -32,3 +32,7 @@ words:
     original: livedoor
     description: portal site and api vendor.
     see: http://www.livedoor.com/
+
+  - word: gitlab
+    description: GitLab unifies issues, code review, CI and CD into a single UI
+    see: https://about.gitlab.com/
