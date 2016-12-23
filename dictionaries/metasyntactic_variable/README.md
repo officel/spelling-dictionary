@@ -9,6 +9,7 @@ In Japan, hoge ~ hogera are general metasyntactic variables.
 
 
 ## List
+* metasyntactic
 * foo
 * bar
 * foobar
