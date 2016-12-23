@@ -5,6 +5,7 @@
 PlantUML is an open source tool for creating UML diagrams from a simple textual description.
 
 ## List
+* plantuml
 * iuml
 * puml
 * checkversion

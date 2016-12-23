@@ -20,6 +20,7 @@ exclude-words:
   - word: endrnote
 
 words:
+  - word: plantuml
   - word: iuml
   - word: puml
   - word: checkversion
