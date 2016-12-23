@@ -24,6 +24,7 @@ class TestAllDirectory(unittest.TestCase):
         self.assertIn('startuml', lines1)  # from plantuml
         self.assertIn('gitter', lines1)  # from web service
         self.assertIn('toctree', lines1)  # from sphinx
+        self.assertIn('jira', lines1)  # from atlassian
 
 
 if __name__ == '__main__':

@@ -1,0 +1,33 @@
+title: Atlassian
+description: |
+    Development and Collaboration Software Company
+    list words see: https://www.atlassian.com/software
+
+see: https://www.atlassian.com/
+words:
+
+  - word: atlassian
+
+  - word: jira
+    see: https://www.atlassian.com/software/jira
+
+  - word: statuspage
+    see: https://www.atlassian.com/software/statuspage
+
+  - word: confluence
+    see: https://www.atlassian.com/software/confluence
+
+  - word: hipchat
+    see: https://www.atlassian.com/software/hipchat
+
+  - word: bitbucket
+    see: https://www.atlassian.com/software/bitbucket
+
+  - word: sourcetree
+    see: https://www.atlassian.com/software/sourcetree
+
+  - word: bamboo
+    see: https://www.atlassian.com/software/bamboo
+
+  - word: crucible
+    see: https://www.atlassian.com/software/crucible
