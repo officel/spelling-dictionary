@@ -12,4 +12,5 @@ What will become a typo in a frequently used web service
 * conoha
 * livedoor
 * gitlab
+* github
 

@@ -36,3 +36,7 @@ words:
   - word: gitlab
     description: GitLab unifies issues, code review, CI and CD into a single UI
     see: https://about.gitlab.com/
+
+  - word: github
+    description: How people build software
+    see: https://about.github.com/
