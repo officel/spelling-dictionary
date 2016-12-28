@@ -40,3 +40,7 @@ words:
   - word: github
     description: How people build software
     see: https://about.github.com/
+
+  - word: circleci
+    description: Continuous Integration and Delivery
+    see: https://circleci.com/

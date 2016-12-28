@@ -13,4 +13,5 @@ What will become a typo in a frequently used web service
 * livedoor
 * gitlab
 * github
+* circleci
 
