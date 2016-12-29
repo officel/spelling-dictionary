@@ -1,0 +1,94 @@
+title: HTML - HyperText Markup Language -
+description: |
+  in W3C. HTML is the standard markup language used to create web pages and its elements form the building blocks of all websites.
+
+  and see WHATWG. https://html.spec.whatwg.org/
+
+  note. Registering combined words like event handlers(ex. onabort).
+  Because it becomes typo in many cases.
+
+see: https://www.w3.org/html/
+
+words:
+  - word: whatwg
+  - word: onabort
+  - word: onauxclick
+  - word: oncancel
+  - word: oncanplay
+  - word: oncanplaythrough
+  - word: onchange
+  - word: onclick
+  - word: onclose
+  - word: oncontextmenu
+  - word: oncuechange
+  - word: ondblclick
+  - word: ondrag
+  - word: ondragend
+  - word: ondragenter
+  - word: ondragexit
+  - word: ondragleave
+  - word: ondragover
+  - word: ondragstart
+  - word: ondrop
+  - word: ondurationchange
+  - word: onemptied
+  - word: onended
+  - word: oninput
+  - word: oninvalid
+  - word: onkeydown
+  - word: onkeypress
+  - word: onkeyup
+  - word: onloadeddata
+  - word: onloadedmetadata
+  - word: onloadend
+  - word: onloadstart
+  - word: onmousedown
+  - word: onmouseenter
+  - word: onmouseleave
+  - word: onmousemove
+  - word: onmouseout
+  - word: onmouseover
+  - word: onmouseup
+  - word: onwheel
+  - word: onpause
+  - word: onplay
+  - word: onplaying
+  - word: onprogress
+  - word: onratechange
+  - word: onreset
+  - word: onseeked
+  - word: onseeking
+  - word: onselect
+  - word: onshow
+  - word: onstalled
+  - word: onsubmit
+  - word: onsuspend
+  - word: ontimeupdate
+  - word: ontoggle
+  - word: onvolumechange
+  - word: onwaiting
+  - word: onblur
+  - word: onerror
+  - word: onfocus
+  - word: onload
+  - word: onresize
+  - word: onscroll
+  - word: onafterprint
+  - word: onbeforeprint
+  - word: onbeforeunload
+  - word: onhashchange
+  - word: onlanguagechange
+  - word: onmessage
+  - word: onoffline
+  - word: ononline
+  - word: onpagehide
+  - word: onpageshow
+  - word: onpopstate
+  - word: onrejectionhandled
+  - word: onstorage
+  - word: onunhandledrejection
+  - word: onunload
+  - word: oncut
+  - word: oncopy
+  - word: onpaste
+  - word: onreadystatechange
