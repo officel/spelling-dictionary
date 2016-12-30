@@ -13,59 +13,93 @@ words:
   - word: whatwg
   - word: onabort
   - word: onauxclick
+  - word:   auxclick
   - word: oncancel
   - word: oncanplay
+  - word:   canplay
   - word: oncanplaythrough
+  - word:   canplaythrough
   - word: onchange
   - word: onclick
   - word: onclose
   - word: oncontextmenu
+  - word:   contextmenu
   - word: oncuechange
+  - word:   cuechange
   - word: ondblclick
+  - word:   dblclick
   - word: ondrag
   - word: ondragend
+  - word:   dragend
   - word: ondragenter
+  - word:   dragenter
   - word: ondragexit
+  - word:   dragexit
   - word: ondragleave
+  - word:   dragleave
   - word: ondragover
+  - word:   dragover
   - word: ondragstart
+  - word:   dragstart
   - word: ondrop
   - word: ondurationchange
+  - word:   durationchange
   - word: onemptied
   - word: onended
+  - word:   ended
   - word: oninput
   - word: oninvalid
   - word: onkeydown
+  - word:   keydown
   - word: onkeypress
+  - word:   keypress
   - word: onkeyup
+  - word:   keyup
   - word: onloadeddata
+  - word:   loadeddata
   - word: onloadedmetadata
+  - word:   loadedmetadata
   - word: onloadend
+  - word:   loadend
   - word: onloadstart
+  - word:   loadstart
   - word: onmousedown
+  - word:   mousedown
   - word: onmouseenter
+  - word:   mouseenter
   - word: onmouseleave
+  - word:   mouseleave
   - word: onmousemove
+  - word:   mousemove
   - word: onmouseout
+  - word:   mouseout
   - word: onmouseover
+  - word:   mouseover
   - word: onmouseup
+  - word:   mouseup
   - word: onwheel
   - word: onpause
+  - word:   pause
   - word: onplay
   - word: onplaying
   - word: onprogress
   - word: onratechange
+  - word:   ratechange
   - word: onreset
   - word: onseeked
+  - word:   seeked
   - word: onseeking
+  - word:   seeking
   - word: onselect
   - word: onshow
   - word: onstalled
   - word: onsubmit
   - word: onsuspend
   - word: ontimeupdate
+  - word:   timeupdate
   - word: ontoggle
   - word: onvolumechange
+  - word:   volumechange
   - word: onwaiting
   - word: onblur
   - word: onerror
@@ -74,21 +108,32 @@ words:
   - word: onresize
   - word: onscroll
   - word: onafterprint
+  - word:   afterprint
   - word: onbeforeprint
+  - word:   beforeprint
   - word: onbeforeunload
+  - word:   beforeunload
   - word: onhashchange
+  - word:   hashchange
   - word: onlanguagechange
+  - word:   languagechange
   - word: onmessage
   - word: onoffline
   - word: ononline
   - word: onpagehide
+  - word:   pagehide
   - word: onpageshow
+  - word:   pageshow
   - word: onpopstate
+  - word:   popstate
   - word: onrejectionhandled
+  - word:   rejectionhandled
   - word: onstorage
   - word: onunhandledrejection
+  - word:   unhandledrejection
   - word: onunload
   - word: oncut
   - word: oncopy
   - word: onpaste
   - word: onreadystatechange
+  - word:   readystatechange
