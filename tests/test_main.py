@@ -25,6 +25,7 @@ class TestAllDirectory(unittest.TestCase):
         self.assertIn('gitter', lines1)  # from web service
         self.assertIn('toctree', lines1)  # from sphinx
         self.assertIn('jira', lines1)  # from atlassian
+        self.assertIn('onabort', lines1)  # from html
 
 
 if __name__ == '__main__':
