@@ -1,0 +1,16 @@
+version: 2
+jobs:
+  one:
+    filters:
+      branches:
+        - master
+    docker:
+      - image: circleci/python:3.5.5-node-browsers
+    steps:
+      - checkout
+      - run: python -m unittest tests/test_main.py -v
+
+#notify:
+#  webhooks:
+#    # gitter
+#    - url: https://webhooks.gitter.im/e/09af529be321ba7db7c7
