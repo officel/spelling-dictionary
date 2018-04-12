@@ -14,3 +14,9 @@ jobs:
 #  webhooks:
 #    # gitter
 #    - url: https://webhooks.gitter.im/e/09af529be321ba7db7c7
+
+workflows:
+  version: 2
+  build_and_test:
+    jobs:
+      - one
